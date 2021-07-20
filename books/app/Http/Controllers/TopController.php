@@ -15,3 +15,4 @@ class topController extends Controller
         return view('Top',['posts' => $posts],['users' => $users]);
     }
 }
+ 
